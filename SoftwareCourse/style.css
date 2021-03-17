@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #f1f1f1;
+}
+
+h2{
+	margin-bottom: 10px;
+}
+
+#container{
+	width: 1140px;
+	margin: 20px auto;
+}
+#blog-post-container{
+	width: 75%;	
+	float: left;
+}
+
+#other-posts{
+	width: 25%;	
+	float: left;
+	padding-left: 20px;
+	text-decoration: none;
+}
+.others{
+	text-decoration: none;
+	list-style: none;
+	color: #111;
+}
+.box{
+	background: white;
+	margin-bottom: 15px;
+	padding: 20px;
+}
+
+.blog-post{
+	position: relative;
+}
+
+.blog-post img{
+	width: 100%;
+}
+
+.date{
+	position: absolute;
+	right:50px;
+	top: 15px;
+}
+
+.blog-text{
+	margin-top: 15px;
+    text-align: justify;
+}
+
+.tags li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.tags li a{
+	text-decoration: none;
+}
+.tags2 li{
+    list-style: none;
+	display: inline-block;
+	margin-right: 4px;
+	font-size: medium;
+}
+.tags2 li a{
+	text-decoration: none;
+}
+
+#author-box{
+	border-top: 1px solid RGB(0,0,0,.125);
+	padding-top: 10px;
+}
+
+#author-box img{
+	border-radius: 50%;
+	float: left;
+}
+
+.author-text{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#share a{
+    color: gray;
+    text-decoration: none;
+    margin-right: 10px;
+    opacity: 0.6;
+}
+#share a:hover{
+    opacity: 0.9;
+}
+#nav{
+	background-color: #95B9C7;
+}
+#nav ul{
+	list-style-type: none;
+	overflow: hidden;
+}
+#nav li{
+	float: left;
+}
+#nav ul li{
+	font-size: 16px;
+}
+#nav li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	transition: backgorund-color 0.2s linear;
+}
+#nav li a:hover{
+	background-color: #111;
+}
+.btn{
+	display: inline-block;
+	font-size: 12px;
+	padding: 5px 10px;
+	margin-top: 10px;
+	border-radius: 4px;
+	color: #fff;
+	background-color: #DA4453;
+	text-transform: uppercase; /* uygulanan metindeki tüm harfleri büyük harfe çevirir.*/
+	cursor: pointer;  /* işaretçi veya fare imleci */
+	border: 1px solid transparent;
+}
+
+.btn:hover{
+	background-color: #363636;
+	border-color: #363636;
+}
+h3{
+	text-align: center;
+	color:black;
+}
